@@ -1,11 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
+  <div>
+    <AboutUs />
+  </div>
 </template>
 
 <script>
+import AboutUs from './components/Aboutus.vue'
 export default {
   name: 'App',
-  components: {}
+  components: {
+    AboutUs
+  }
 }
 </script>
 
