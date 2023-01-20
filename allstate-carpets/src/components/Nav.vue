@@ -1,16 +1,13 @@
 <template>
   <nav>
-    <h3>hello world</h3>
+    <router-link to="/">Home</router-link>
+    <router-link to="/aboutus">About Us</router-link>
   </nav>
 </template>
 
 <script>
-// import Aboutus from './Aboutus.vue';
 export default {
-  name: 'NavBar',
-  components: {
-    // Aboutus
-  }
+  name: 'NavBar'
 }
 </script>
 
