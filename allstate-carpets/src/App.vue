@@ -1,17 +1,19 @@
 <template>
-  <div>
-    <NavBar />
-    <AboutUs />
+  <div id="app">
+    <header>
+      <NavBar />
+    </header>
+    <main>
+      <RouterView />
+    </main>
   </div>
 </template>
 
 <script>
-import AboutUs from './components/Aboutus.vue'
 import NavBar from './components/Nav.vue'
 export default {
   name: 'App',
   components: {
-    AboutUs,
     NavBar
   }
 }
