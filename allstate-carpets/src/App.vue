@@ -1,15 +1,18 @@
 <template>
   <div>
+    <NavBar />
     <AboutUs />
   </div>
 </template>
 
 <script>
 import AboutUs from './components/Aboutus.vue'
+import NavBar from './components/Nav.vue'
 export default {
   name: 'App',
   components: {
-    AboutUs
+    AboutUs,
+    NavBar
   }
 }
 </script>

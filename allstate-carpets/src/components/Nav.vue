@@ -4,6 +4,14 @@
   </nav>
 </template>
 
-<script></script>
+<script>
+import Aboutus from './Aboutus.vue';
+export default {
+  name: 'NavBar',
+  components: {
+    Aboutus
+  }
+}
+</script>
 
 <style></style>
