@@ -5,11 +5,11 @@
 </template>
 
 <script>
-import Aboutus from './Aboutus.vue';
+// import Aboutus from './Aboutus.vue';
 export default {
   name: 'NavBar',
   components: {
-    Aboutus
+    // Aboutus
   }
 }
 </script>
