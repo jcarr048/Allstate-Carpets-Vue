@@ -1,8 +1,26 @@
 <template>
-  <nav className="flex flex-col justify-center mx-auto my-auto md:flex-row">
-    <div> <img className="w-2/3 h-2/3" src="../assets/aclogo.jpeg" alt=""></div>
-    <router-link to="/">Home</router-link>
-    <router-link to="/aboutus">About Us</router-link>
+  <nav
+    className="flex flex-row justify-center align-middle mx-auto my-auto md:flex-row space-x-3 bg-orange-200 bg-gradient-to-r from-yellow-100"
+  >
+    <div className="">
+      <img
+        className="w-20 h-20 rounded-md"
+        src="../assets/aclogo.jpeg"
+        alt=""
+      />
+    </div>
+    <div className="md:flex md:flex-row">
+      <router-link
+        to="/"
+        className="flex flex-col justify-center align-middle text-red-900 font-bold mx-4"
+        >Home</router-link
+      >
+      <router-link
+        to="/aboutus"
+        className="flex flex-col justify-center align-middle text-red-900 font-bold"
+        >About Us</router-link
+      >
+    </div>
   </nav>
 </template>
 
